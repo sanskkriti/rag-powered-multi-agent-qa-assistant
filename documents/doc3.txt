@@ -1,0 +1,1 @@
+Machine learning algorithms learn patterns from data without explicit programming. Deep learning uses neural networks with multiple layers to model complex patterns.

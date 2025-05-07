@@ -1,0 +1,1 @@
+Computer vision is a field of artificial intelligence that enables computers to interpret visual information from the world. Key applications include object detection, image classification, and facial recognition.

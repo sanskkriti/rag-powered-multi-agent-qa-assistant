@@ -1,0 +1,1 @@
+A neuron is the basic working unit of the brain, a specialized cell designed to transmit information to other nerve cells, muscle, or gland cells. Neurons have three main parts: cell body, dendrites, and axon. In artificial neural networks, artificial neurons (or nodes) are the basic units that mimic biological neurons.
