@@ -1,8 +1,7 @@
-# Remove version pins for major packages
-streamlit>=1.45.0
-transformers>=4.51.3
-sentence-transformers>=3.0.0
-faiss-cpu==1.8.0
-numpy==2.2.5
-python-dotenv==1.0.1
-torch==2.7.0
+streamlit>=1.25.0
+transformers>=4.36.2
+sentence-transformers==2.2.2
+faiss-cpu==1.7.4
+numpy==1.24.3
+python-dotenv>=1.0.0
+torch==2.1.2
