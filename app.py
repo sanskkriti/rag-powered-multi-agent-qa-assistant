@@ -23,7 +23,10 @@ if query:
     answer, log = agent.process_query(query)
     
     st.subheader("Answer")
-    st.write(answer)
+    st.markdown(f"<div style='white-space: pre-wrap; font-size: 16px;'>{answer}</div>", unsafe_allow_html=True)
+
+
+
     
     with st.expander("See agent workflow"):
         st.write("Execution Log:")
@@ -32,4 +35,4 @@ if query:
     
     if "context" in log[-1]:  # Show context if RAG was used
         with st.expander("Retrieved Context"):
-            st.write(agent.retriever.retrieve(query))
+            st.write(agent.retriever.retrieve(query)) 
